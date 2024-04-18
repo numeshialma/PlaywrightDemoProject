@@ -15,8 +15,6 @@ test('LocateMultipleElements' ,async ({page})=>{
         console.log(productName)
     }
     
-
     await page.close();
-
 
 })

@@ -21,6 +21,4 @@ test('Built-inLocators' ,async ({page})=>{
     // for above syntax 
     const name = await page.locator('//p[@class="oxd-userdropdown-name"]').textContent()
 
-
-
 })
